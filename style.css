@@ -1,0 +1,131 @@
+/* one css for all page index.hmtl  , meal.html , fav.html */
+
+/* this is for body  */
+body {
+background-color:brown;
+}
+
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+/* imdp log image  */
+.meal {
+    
+   margin-top: 7rem;
+    
+   
+}
+
+/* search bar portion  */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/* heart icon  */
+
+
+.fa-heart {
+    color: rgb(222, 0, 0);
+
+}
+
+/* search bar inner styling  */
+
+.inner-button {
+    color: black;
+    padding: 13px;
+    height: 18px;
+    width: 464px;
+    border-radius: 19px;
+    /* border-color: black; */
+    
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+/* index.html ends here */
+
+ 
+
+
+/* css for fav meal html page  */
+
+#fav-meal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 100px;
+}
+
+
+.card-title {
+    color: white;
+    text-align: justify;
+}
+
+
+/* common img size for all page   in inner html */
+.img-mov {
+    height: 200px;
+    width: 200px;
+}
+
+
+h1 {
+
+    text-align: center;
+    color: rgb(244, 244, 244);
+}
+
+
+
+
+
+/* for the  list of meal that showed when we search  */
+.searched-meal {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+.container-meal{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* details styling  */
+
+
+.card-title{
+    color: white;
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+.card-text{
+    color: white;
+    border: 2px solid black;
+
+
+
+}
